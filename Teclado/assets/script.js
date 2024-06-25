@@ -37,6 +37,6 @@ function playComposition(songArrey) {
             playSound(`key${songItem.toLowerCase()}`)
         }, wait)
         
-        wait += 250
+        wait += 300
     }
 }
