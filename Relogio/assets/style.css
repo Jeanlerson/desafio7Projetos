@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333;
+    background: linear-gradient(20deg,red,black);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -22,9 +22,12 @@ h1 {
 .clock {
     width: 300px;
     height: 300px;
-    border: 5px solid #FFF;
+    border: 6px solid #f00;
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #ccc;
+    background-image: url(../img/fundo2.png);
+    background-position: center;
+
 }
 
 .riskiness {
@@ -41,11 +44,23 @@ h1 {
     transform-origin: left;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+}
+.risk span {
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 2px;
+    color: #f00;
+    text-shadow: 1px 1px 3px #fff;
 }
 .risk .point {
     width: 15px;
     height: 100%;
-    background-color: #FFF;
+    background-color: #f00;
 }
 
 .pointers {
