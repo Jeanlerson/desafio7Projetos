@@ -61,6 +61,13 @@ h1 {
     width: 15px;
     height: 100%;
     background-color: #f00;
+    box-shadow: 1px 1px 3px #000;
+}
+.risk .s {
+    width: 7.5px;
+    height: 50%;
+    background-color: #f00;
+    box-shadow: 1px 1px 3px #000;
 }
 
 .pointers {
@@ -75,12 +82,14 @@ h1 {
     transform: rotate(0deg);
     border-radius: 50%;
     position: absolute;
+    box-shadow: 1px 1px 3px #000;
 }
 
 .p_s {
     width: 100px;
-    height: 3px;
+    height: 5px;
     background-color: #F00;
+    border: 1px solid #000;
 }
 .p_m {
     width: 120px;
