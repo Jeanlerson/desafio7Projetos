@@ -51,7 +51,7 @@ h1 {
     border: 1px dotted #FFF;
     margin-top: 20px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .titulo {
@@ -67,13 +67,12 @@ h1 {
     display: flex;
     width: 100%;
 }
-.info .temp {
+.info .temp, .vento, .tempMax, .tempMin {
     flex: 1;
     text-align: center;
 }
-.info .vento {
-    flex: 1;
-    text-align: center;
+.tempMax, .tempMin {
+    margin-bottom: 20px;
 }
 .tempTitulo,
 .ventoTitulo {
